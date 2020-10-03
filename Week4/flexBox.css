@@ -1,0 +1,49 @@
+body{
+	border: 1px;
+	width: 90%;
+	margin: auto;
+
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	background-color: rgb(207,232,220);
+	border: 2px solid rgb(79,185,227);
+	border-radius: 5px;
+}
+.content{
+	display: flex;
+	flex-direction: row;
+}
+#leftContent{
+	flex: 1;
+	padding-right: 10px;
+}
+#rightContent{
+	flex: 2;
+}
+.footer{
+	display: flex;
+	flex-direction: row;
+}
+#leftFooter{
+	flex: 1;
+	background-color: rgb(207,232,220);
+	border: 2px solid rgb(79,185,227);
+	border-radius: 5px;
+}
+#rightFooter{
+	flex: 1;
+	background-color: rgb(207,232,220);
+	border: 2px solid rgb(79,185,227);
+	border-radius: 5px;
+}
+.support{
+	
+}
+a{
+	text-decoration: none;
+}
