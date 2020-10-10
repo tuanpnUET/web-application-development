@@ -1,0 +1,21 @@
+table{
+	border-collapse: collapse;
+}
+table, tr, th, td{
+	border: 1px solid;
+}
+.title{
+	background-color: blue;
+}
+.odd_row{
+	background-color: orange;
+}
+.even_row{
+	background-color: yellow;
+}
+.checked{
+	background-color: red;
+}
+/*.nodisplay{
+	display: none;
+}*/
