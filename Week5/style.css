@@ -16,6 +16,7 @@ table, tr, th, td{
 .checked{
 	background-color: red;
 }
-/*.nodisplay{
+
+.nodisplay{
 	display: none;
-}*/
+}
