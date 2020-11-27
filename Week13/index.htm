@@ -1,0 +1,18 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><body>
+	<h1>Lab. Định tuyến URL</h1>
+	<h4>Mục đích</h4>
+		Phát triển module định tuyến URL thực hiện ánh xạ các REST API đến controller.action. <br>
+		<h4>Nội dung</h4>
+
+	<a href="routing.zip">Download mã nguồn</a>
+	<h2>Yêu cầu</h2>
+	- Phân tích mã nguồn cài đặt bộ điều khiển mặt trước (tệp index.php)<br>
+	- Phân tích mã nguồn cài đặt bộ định tuyến (tệp app/core/control/Router.php). Với mỗi ánh xạ URI sang controller.action (API), đọc mã nguồn cài đặt API tương ứng rồi sử dụng trình duyệt để truy cập API đó:<br>
+		+ GET /students (Sử dụng tệp list.htm để làm frontend)<br>
+		+ GET /students/{id} (Sử dụng tệp get.htm để làm frontend)<br>
+		+ PUT /students/{id} (Sử dụng tệp update.htm để làm frontend)<br>
+	- Mở rộng trang update.htm cho phép người dùng nhập thêm các thông tin ngày sinh, giới tính, quê quán. Đồng thời, nâng cấp lớp StdController và phương thức updateOneStd() đọc dữ liệu của người dùng đã PUT lên và lưu dữ liệu vào các thuộc tính của lớp StdController. <br>
+	- Nâng cấp phương thức getByID() của StdController để trả về dữ liệu từ các thuộc tính của lớp StdController. <br>
+	- Truy cập update.htm để nhập dữ liệu rồi truy cập get.htm để quan sát dữ liệu đã nhập.
+
+</body></html>

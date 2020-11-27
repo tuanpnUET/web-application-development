@@ -1,0 +1,14 @@
+<?php
+    namespace selab\control;
+    require_once("model/Auth.php");
+    require_once("control/Routing.php");
+    
+    class Main {
+        public static function main() { 
+
+            Routing::proc();
+
+
+        }
+    }
+
